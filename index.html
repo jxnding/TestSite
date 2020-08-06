@@ -1,0 +1,29 @@
+<script>
+    console.log("Hello Console Log")
+    console.error("Hello Console Error")
+    // throw new Error("Thrown Error")
+
+    function button1() {
+      console.log("Button1");
+    }
+</script>
+
+Hello
+<form method="get" action="/1.html">
+  <button type="submit">1</button>
+</form>
+<form method="get" action="/2.html">
+  <button type="submit">2</button>
+</form>
+<form method="get" action="/3.html">
+  <button type="submit">3</button>
+</form>
+<br />
+<button onclick="button1()">Button 1</button>
+<button>Button 2</button>
+
+<a href="pop-up.html" 
+  target="popup" 
+  onclick="window.open('pop-up.html','popup','width=600,height=600'); return false;">
+    Open Link in Popup
+</a>
